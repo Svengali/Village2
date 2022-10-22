@@ -1,0 +1,32 @@
+
+
+raw/
+
+
+
+
+#vs code suggested
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+#Suggested bevy ignores
+/target/
+crates/*/target
+**/*.rs.bk
+Cargo.lock
+.cargo/config
+.cargo/config.toml
+/.idea
+/benches/target
+
+
