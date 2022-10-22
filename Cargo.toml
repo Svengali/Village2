@@ -6,9 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-macroquad = { path = "../macroquad" }
 json = "0.12.4"
 rand = "0.8.5"
-soa_derive = { path = "soa_derive"}
-simplex_noise = { path = "rust_simplex_noise" }
+#soa_derive = { path = "libs/soa_derive"}
+#simplex_noise = { path = "libc/rust_simplex_noise" }
 
